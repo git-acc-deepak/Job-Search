@@ -1,0 +1,24 @@
+{
+  "name": "Job-Search",
+  "version": "1.0.0",
+  "description": "full stack web app (react, node express, Cron worker, Redis + Node-redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/git-acc-deepak/Job-Search.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/git-acc-deepak/Job-Search/issues"
+  },
+  "homepage": "https://github.com/git-acc-deepak/Job-Search#readme",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "node-fetch": "^2.6.1"
+  }
+}
