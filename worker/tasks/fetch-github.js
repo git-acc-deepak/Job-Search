@@ -13,7 +13,7 @@ async function fetchGithub() {
 
   //fetch pages
   while (resCount > 0) {
-    const res = await fetch(`${baseURL}?page=${onPage}`);
+    const res = await fetch(`${baseURL}?description=ruby&page=${onPage}`);
     const jobs = await res.json();
     allJobs.push(...jobs);
     resCount = jobs.length;

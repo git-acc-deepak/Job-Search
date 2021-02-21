@@ -1,5 +1,9 @@
+body {
+  margin: 20px 40px;
+}
 .App {
-  text-align: center;
+  justify-items: center;
+  align-items: center;
 }
 
 .job {
@@ -10,4 +14,24 @@
   margin: 20px 0;
   padding: 20px 10px;
   align-items: center;
+}
+
+.job:hover {
+  cursor: pointer;
+  transition: 400ms;
+  background-color: rgb(134, 173, 207);
+  color: white;
+}
+
+.job-company {
+  padding: 0 30px;
+}
+
+.job-dialog {
+  padding: 30px 50px;
+}
+
+.detail-logo {
+  height: 30px;
+  float: right;
 }
